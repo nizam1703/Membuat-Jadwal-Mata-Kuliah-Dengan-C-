@@ -1,5 +1,6 @@
 # Membuat-Jadwal-Mata-Kuliah-Dengan-C-
-Beriku adalah source code untuk membuat jadwal mata kuliah dengan menambahkan mata kuliah dan menampilkannya menggunakan array pada bahasa c++
+# Beriku adalah source code untuk membuat jadwal mata kuliah dengan menambahkan mata kuliah dan menampilkannya menggunakan array pada bahasa c++
+
 
 #include <iostream>
 #include <string>
@@ -10,13 +11,12 @@ struct MataKuliah {
     string hari;
     string jam;
 };
-
 int main() {
     const int MAX = 10; // maksimal 10 mata kuliah
     MataKuliah jadwal[MAX];
     int jumlah = 0;
-    int pilihan;
-
+    int pilihan; 
+    
     do {
         cout << "\n1. Tambah Mata Kuliah\n2. Tampilkan Jadwal\n0. Keluar\nPilihan: ";
         cin >> pilihan;
