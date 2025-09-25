@@ -1,4 +1,4 @@
-# Membuat-Jadwal-Mata-Kuliah-Dengan-C-
+# Membuat-Jadwal-Mata-Kuliah-Dengan-C++
 Berikut adalah source code untuk membuat jadwal mata kuliah dengan menambahkan mata kuliah dan menampilkannya menggunakan array pada bahasa c++
 
 ``` cpp
