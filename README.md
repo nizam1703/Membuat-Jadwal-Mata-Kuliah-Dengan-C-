@@ -1,5 +1,14 @@
 # Membuat-Jadwal-Mata-Kuliah-Dengan-C++
-Berikut adalah source code untuk membuat jadwal mata kuliah dengan menambahkan mata kuliah dan menampilkannya menggunakan array pada bahasa c++
+Program ini merupakan implementasi sederhana dalam bahasa C++ untuk mengelola jadwal mata kuliah.
+Fitur utama yang tersedia dalam program ini antara lain:
+
+- Menambahkan data mata kuliah (nama, hari, dan jam kuliah).
+
+- Menyimpan jadwal dalam array dengan kapasitas maksimum 10 mata kuliah.
+
+- Menampilkan daftar jadwal mata kuliah yang sudah dimasukkan.
+
+- Menu interaktif agar pengguna dapat memilih aksi yang diinginkan.
 
 ``` cpp
 #include <iostream>
